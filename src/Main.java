@@ -4,6 +4,8 @@ import Exercise1.PrintAd;
 import Exercise2.BRDBank;
 import Exercise2.BTBank;
 import Exercise2.INGBank;
+import Exercise3.*;
+import Exercise4.Student;
 
 public class Main {
     public static void main(String[] args) {
@@ -19,5 +21,14 @@ public class Main {
 
         new BTBank().deposit(3000);
         new BTBank().withdraw(3000);
+
+        System.out.println(new Cat().eat());
+        System.out.println(new Dog().eat());
+        System.out.println(new Mouse().eat());
+        System.out.println(new Chicken().eat());
+        System.out.println(new Duck().eat());
+
+        Student student = new Student("Mihai",8);
+        System.out.println(student);
     }
 }
