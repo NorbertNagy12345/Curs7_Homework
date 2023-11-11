@@ -29,6 +29,10 @@ public class Main {
         System.out.println(new Duck().eat());
 
         Student student = new Student("Mihai",8);
-        System.out.println(student);
+        Student student1 = new Student("Julia",7);
+        Student student2 = new Student("Iosif",10);
+        Student student3 = new Student("Catalin",2);
+        System.out.println(student.getName()+"  "+student.getGrade());
+        System.out.println(Student.calculateAverageGrade());
     }
 }
