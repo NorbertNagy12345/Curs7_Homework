@@ -34,5 +34,7 @@ public class Main {
         Student student3 = new Student("Catalin",2);
         System.out.println(student.getName()+"  "+student.getGrade());
         System.out.println(Student.calculateAverageGrade());
+        Integer[] arr = {4,7,5,2,8,9,3};
+        ExtraMile.pairPrinter(arr,12);
     }
 }
