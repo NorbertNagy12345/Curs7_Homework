@@ -36,5 +36,6 @@ public class Main {
         System.out.println(Student.calculateAverageGrade());
         Integer[] arr = {4,7,5,2,8,9,3};
         ExtraMile.pairPrinter(arr,12);
+        ExtraMile.tripletPrinter(arr,12);
     }
 }
